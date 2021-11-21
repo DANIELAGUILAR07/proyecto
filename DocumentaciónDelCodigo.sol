@@ -7,11 +7,13 @@ contract GenerarUsuarioConSuEdad{
  // Definimos dos variables de tipo entere, una para almacenar la edad y otra para almacenar el código generado   
     uint Edad;
     uint usuario;
+    uint Codigo;
     
  // declaramos dos evento, 1 para que almacenen los datos de las variables y el segundo par si ocurre algun fallo en la edad
-    event Datos(string, uint Edad, string, uint usuario);
+  event Datos(string, uint Edad, string, uint usuario);
     event Fallo(string);
- 
+    event Acceso(string);
+    event NoAcceso(string);
  
  //Declaramos la función SetAge para calcular la edad del usuario a partir de el año de nacimiento
   function SetAge(uint AGE) public {
@@ -35,6 +37,31 @@ contract GenerarUsuarioConSuEdad{
      emit Fallo("Usted no tiene edad para ingresar al edificio"); 
         
     }
+    }
+   function Acceder(uint CODE) public{
+        
+        Codigo=CODE;
+        
+        
+    }
+    
+    function Acceder() public{
+        
+    if (Codigo==usuario){
+            
+         emit Acceso("Acceso concedido"); 
+         
+     }else{
+         
+       emit NoAcceso("Código Inválido");
+         
+     }
+        
+        
+    }
+
+  
+}
        
      
 

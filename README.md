@@ -8,6 +8,7 @@ SOLUCION PARA EL CONTROL DE ENTRADA EN SOLIDITY
 
 - Descargar git " pueden hacer uso del siguiente tutorial "https://www.youtube.com/watch?v=h9ZH2wFpSUc&ab_channel=Developeando" 
 
+
 -usaremos visual estudio code
 
 

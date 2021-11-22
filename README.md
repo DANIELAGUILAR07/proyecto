@@ -43,7 +43,7 @@ PARA PODER CREAR EL CONTRATO
  
  PARA AGREGARLO AL GIT
  
- # Utilizaremos los siguientes COMANDOS TENGA EN:
+ # Utilizaremos los siguientes COMANDOS PARA HACER EL GIT :
  
 -git remote add origin https://github.com/Juanrch19/hola-mundo43-r23.git "Aca sera de acuerdo a su respositorio"
 

@@ -1,4 +1,4 @@
-# proyecto
+# PROYECTO
 SOLUCION PARA EL CONTROL DE ENTRADA EN SOLIDITY 
 
 ![1_36dEqQ35Z3mUBRIRVsjfnw](https://user-images.githubusercontent.com/91889338/142859511-212fa232-a72c-4a8c-8c49-bd4746684069.png)

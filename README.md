@@ -6,9 +6,8 @@ SOLUCION PARA EL CONTROL DE ENTRADA EN SOLIDITY
 # IMPORTANTE
 - sar el entorno de desarrollo remix (no es necesario descargarlo ya que este se encuentra en el mismo navegador ) pueden entrar en esta pagina "https://remix.ethereum.org/"
 
-- Descargar git " pueden hacer uso del siguiente tutorial "https://www.youtube.com/watch?v=h9ZH2wFpSUc&ab_channel=Developeando" 
-
-
+- Descargar git " pueden hacer uso del siguiente tutorial "https://www.youtube.com/watch?v=h9ZH2wFpSUc&ab_channel=Developeando"
+ 
 -usaremos visual estudio code
 
 

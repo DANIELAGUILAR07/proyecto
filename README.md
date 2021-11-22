@@ -36,6 +36,10 @@ PARA PODER CREAR EL CONTRATO
  
  PARA AGREGARLO AL GIT
  
- utilizaremos los siguientes COMANDOS TENGA EN
+ # Utilizaremos los siguientes COMANDOS TENGA EN
+ 
+git remote add origin https://github.com/Juanrch19/hola-mundo43-r23.git "Aca sera de acuerdo a su respositorio"
+git branch -M main
+git push -u origin main
  
  

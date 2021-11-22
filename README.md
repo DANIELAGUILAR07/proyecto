@@ -18,6 +18,24 @@ PARA PODER CREAR EL CONTRATO
  contract GenerarUsuarioConSuEdad{
  
  Paso 2:
- Para crear nuestros respectivos eventos 
+ Para crear nuestros respectivos eventos declaramos 4 evento, 1 para que almacenen los datos de las variables y el segundo par si ocurre algun fallo en la edad, y otro para poder verificar el acceso y sui respectivo fallo.
+ 
+ Paso 3:
+ Declaramos la función SetAge para calcular la edad del usuario a partir de el año de nacimiento para compelementar esto haremos ,Declaramos la función GetCode para que genere el código y lo muestre por pantalla de usuario bajo una condición, y es si el usuario es mayor o igual de 18 años
+ 
+ Paso 4:
+ para hacer el control de acceso crearemos una funcion como la podemos ver aqui especificamente:
+ Function acceder() public
+ 
+ crearemos un condicional if para que verifique que el codigo pertenezca al usuario y nos diga que el acceso esta concedido
+  emit Acceso("Acceso concedido"); 
+ 
+ y otro para que nos diga que el codigo es invalido
+ 
+ emit NoAcceso("Código Inválido");
+ 
+ PARA AGREGARLO AL GIT
+ 
+ utilizaremos los siguientes COMANDOS TENGA EN
  
  
